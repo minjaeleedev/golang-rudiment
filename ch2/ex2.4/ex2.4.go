@@ -9,4 +9,10 @@ func main() {
 	d := 5        // 선언 대입문 := 사용. var 키워드와 타입 생략
 
 	fmt.Println(a, b, c, d)
+
+	var e = 3.1415     // e는 float64 타입으로 자동 지정
+	f := 365           // f는 int 타입으로 자동 지정
+	g := "hello world" // s는 string 타입으로 자동 지정
+
+	fmt.Println(e, f, g)
 }
