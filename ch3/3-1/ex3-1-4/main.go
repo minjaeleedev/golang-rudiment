@@ -1,0 +1,15 @@
+package main
+
+import "fmt"
+
+func main() {
+	var a = 324.13455
+	var c = 3.14
+
+	fmt.Printf("%08.2f\n", a)
+	fmt.Printf("%08.2g\n", a)
+	fmt.Printf("%8.5g\n", a)
+	fmt.Printf("%8.g\n", a) // precision 0
+	fmt.Printf("%8g\n", a)  // default precision
+	fmt.Printf("%f\n", c)
+}
