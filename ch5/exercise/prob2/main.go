@@ -1,0 +1,21 @@
+package prob2
+
+import "fmt"
+
+func AAA() {
+	fmt.Println("start AAA()")
+	BBB()
+	fmt.Println("end AAA()")
+}
+
+func BBB() {
+	fmt.Println("BBB()")
+}
+
+func main() {
+	AAA()
+}
+
+// start AAA()
+// BBB()
+// end AAA()
